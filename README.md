@@ -1,9 +1,4 @@
-Need to set up format here 
-
-
-Carl <carlraysparks@gmail.com>
-17:59 (1 hour ago)
-to me
+Gourmet Grubbers Documentation
 
 **Overview**
 
@@ -22,3 +17,23 @@ Diverse food interests will have a presence on the website including vegan and g
 The branding and theme of the website is to present food types in line with the website title 'Gourmet Grubbers', that is, grub (ie everyday sorts of food) that has a gourmet twist (exotic enhancements mainly via variations/additions of ingredients used).
 
 The website aims to deliver some recipes in a novel form, using carousels, to make the format for interaction more interesting than the expected 'recipe book' type of format. It is proposed that this might act as 'bait' to lure viewers and incite their curiosity to find out more aswell, while inflaming their desire for the food types presented.
+
+**UX/UI**
+
+User stories and their solutions.
+
+**Testing**
+
+Show responsiveness with https://ui.dev/amiresponsive tool.
+
+And HTML and CSS validations on W3C
+
+**Deployment**
+
+**Citations**
+
+Home Page background image from  
+
+**Future Features**
+
+**Bugs and Fixes**
