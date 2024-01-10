@@ -11,9 +11,19 @@
 </head>
 <body>
     <header>
-        <nav>
-        </nav>
-        <h1>Welcome to Gourmet grubbers!</h1>
+        <div id="navbar">
+            <a href="index.html"><img src="assets/images/Pig chef.webp" alt="picture of a burger" width="100px" height="100px"></a>
+            <h1>Gourmet Grubbers</h1>
+            <input type="checkbox" name="nav-toggle" id="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-burger fa-2x"></i></label>
+            <nav>
+                <ul id="nav-items">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="recipes.html">Recipes</a></li>
+                    <li><a href="newsletter.html">Newletter Sign Up</a></li>
+                </ul>
+            </nav>
+        </div>    
     </header>
 
     <main>
@@ -25,5 +35,8 @@
     <footer>
 
     </footer>
+
+    <!-- Font awesome icons -->
+    <script src="https://kit.fontawesome.com/3cf5de8ace.js" crossorigin="anonymous"></script>
 </body>
 </html>
