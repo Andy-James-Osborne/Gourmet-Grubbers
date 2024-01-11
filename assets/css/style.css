@@ -11,7 +11,7 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    color: #fff;
+    color: #252525;
     font-family: 'Sen', monospace;
 }
 
@@ -43,7 +43,7 @@ header h1 a {
     position: relative;
     width: 100%;
     height: 5rem;
-    box-shadow: 0 2px 2px;
+    margin: 0;
     z-index: 10;
     display: flex;
     justify-content: space-between;
@@ -103,7 +103,7 @@ nav {
 /* main */
 
 main {
-    background-color: blue;
+    background-color: #fff;
     flex: 1 0 auto;
 }
 
@@ -126,6 +126,12 @@ footer {
 .footer-icon i {
     font-size: 25px;
     color: #252525;
+}
+
+/* --------------------Carousels------------------ */
+
+h2 {
+    text-align: center;
 }
 
 @media screen and (min-width: 280px) {
