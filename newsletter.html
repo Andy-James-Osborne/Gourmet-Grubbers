@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="discription"
+        content="Gourmet Grubbers, the best place to learn how to cook. Easy recipes cooked in mintues.">
+    <meta name="keywords" content="Gourmet Grubbers, Recipes, Food, Cooking, Learn to cook">
+    <meta name="author" content="Hackacademics (Andy, Carl and Ifzal)">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/ifzalstyle.css">
+    <title>Gourmet Grubbers</title>
+
+</head>
+
+<body>
+    <header>
+        <div id="navbar">
+            <a href="index.html"><img src="assets/images/pig-chef.webp" alt="picture of a pig in a chef hat" width="100px"
+                    height="100px"></a>
+            <h1>Gourmet Grubbers</h1>
+            <input type="checkbox" name="nav-toggle" id="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-burger fa-2x"></i></label>
+            <nav>
+                <ul id="nav-items">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="recipes.html">Recipes</a></li>
+                    <li><a href="newsletter.html">Newsletter Sign Up</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col my-2 downloadnews">
+                    <h3>Check out the latest edition of our newsletter <a href="assets/newsletter/newsletter.txt"><i class="fa-solid fa-download"></i></a></h3>
+                </div>
+            </div>
+        </div>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 offset-md-2">
+                        <div class="signup">
+                            <form action="https://formdump.codeinstitute.net/" method="POST">
+                                
+                                <div class="formintro">
+                                    <h4>Recipes direct to your inbox!</h4>
+                                    <p>Make meal times exciting again by signing up to our newsletter. We bring you new
+                                        recipes regulalry and the latest updates in the world of gastronomy. </p>
+                                </div>
+
+                                <div><label for="name">Name</label></div>
+                                <div class="forminput"><input type="text" name="name" id="name"
+                                        placeholder="Enter your full name" required></div>
+
+                                <div><label for="name">Email</label></div>
+                                <div class="forminput"><input type="email" name="email" id="email"
+                                        placeholder="Enter your email" required></div>
+
+                                <p>How often would you like to receive updates?</p>
+
+                                <div class="formradio">
+                                    <input type="radio" name="frequency" id="weekly" value="weekly" required>
+                                    <label for="weekly">Weekly</label>
+                                    <input type="radio" name="frequency" id="monthly " value="monthly">
+                                    <label for="monthly">Monthly</label></div>
+
+                                <button type="submit" class="formbutton">Submit</button>
+
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8 offset-md-2">
+                        <div class="iframebox">
+                            <p>The Gourmet Grubbers strive to use the finest quality ingredenients that are ethically
+                                sourced, sustainably grown and fairly priced</p>
+                            <p>You can find these at our partner shop: Grubby Grocers</p>
+                            <iframe src="https://bit.ly/2QVfkiy" height="60%" width="60%"></iframe>
+                            <div class="shopaddress">
+                                <p> <a href="https://www.google.com/maps/place/TWOBEANS+Speciality+Coffee+Bar/@53.3050746,-6.623052,10.75z/data=!4m6!3m5!1s0x48670620fbe2cd39:0x934d18ab05ad014a!8m2!3d53.2944755!4d-6.141485!16s%2Fg%2F12hs8rkqn?hl=en&entry=ttu"
+                                        target="_blank"><i class="fa-solid fa-location-dot"></i></a> Grubby Grocers</p>
+                                <p>25 Grub Grove</p>
+                                <p>Grubsville</p>
+                                <p>GR88 1GG</p>
+                                <p>Tel: 01234567890</p>
+                                <p>Email: grubbygrocers@grubnet.com</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer>
+        <div class="footer-icon">
+            <a href="https://www.youtube.com" target="_blank" rel="noopener"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.instagram.com" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.pinterest.com" target="_blank" rel="noopener"><i class="fa-brands fa-pinterest"></i></a>
+        </div>
+    </footer>
+
+    <!-- Font awesome icons -->
+    <script src="https://kit.fontawesome.com/3cf5de8ace.js" crossorigin="anonymous"></script>
+
+    <!-- Boostrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
