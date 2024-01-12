@@ -1,6 +1,6 @@
 Gourmet Grubbers Documentation
 
-**Overview**
+## Overview
 
 The websites main purpose is to act as a space for sharing food recipes. 
 
@@ -10,7 +10,7 @@ The website owner also writes about food in a newsletter, the website can also a
 
 Sign ups involving email address submission mean a mailing list can be progressively built up for future promotion and visibility via email campaigns. 
 
-**Features**
+##Features
 
 Diverse food interests will have a presence on the website including vegan and gluten free types.
 
@@ -19,10 +19,9 @@ The branding and theme of the website is to present food types in line with the 
 The website aims to deliver some recipes in a novel form, using carousels, to make the format for interaction more interesting than the expected 'recipe book' type of format. It is proposed that this might act as 'bait' to lure viewers and incite their curiosity to find out more aswell, while inflaming their desire for the food types presented.
 
 **UX/UI**
+Wireframes were created with a few different design possibilities in mind. So, you will find a few extra pages here or currently unused designs, included here for reference back to in future iterations. Wireframing was done in line with most essential User Stories. Considerations were to be eye catching, simple, novel and easy to find recipes. Must haves were in line with the core brief of providing recipes from the site owner to the public. Additional features and considerations, of lower priority, were surrounding increasing Newsletter signups, social media following and brand identity formation.
 
-*Wireframing and planning*
 
-Insert wireframe images
 
 **User stories and their solutions**
 
@@ -70,6 +69,8 @@ Insert wireframe images
 
 <!-- Show responsiveness with by inserting image/link from https://ui.dev/amiresponsive tool. -->
 
+
+
 - As an Owner I want appeal to people with diverse dietary preferences so I can increase my audience.
 (Assigned as *should have*)
  <!-- <insert screenshot of cards linking to Vegan, 'Free From' and Meat recipes> -->
@@ -90,11 +91,13 @@ Insert wireframe images
 
 **Testing**
 
-And HTML and CSS validations on W3C
+HTML and CSS validations tested on W3C. https://validator.w3.org/
+
+Browser tests performed using Browserling  https://www.browserling.com/
 
 **Deployment**
 
-Link to Github Pages url
+Link to Github Pages url-  https://andy-james-osborne.github.io/Gourmet-Grubbers/index.html
 
 **Citations**
 
@@ -102,5 +105,9 @@ Home Page background image from  ...=
 
 **Future Features**
 
+* To archive the weekly recipes and make them always accessible. 
+* Increase recipe numbers. 
 
 **Bugs and Fixes**
+
+Some underlying conflicts in layout between custom CSS and Bootstrap may pose difficulties with future design changes.
